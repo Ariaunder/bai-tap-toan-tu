@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>toan-tu-ba-ngoi</title>
+</head>
+<body>
+	<script>
+           login = prompt("moi ban nhap", '');
+           let message = (login == 'Employee')? 'Hello':
+          (login == 'Director') ? 'Greetings' :
+          (login == '') ? 'No login' : '';
+          alert(message);
+
+
+          login =prompt("moi ban dang nhap", '');
+
+
+          let  message =( login == 'Employee') ? 'Hello' :
+         ( login == 'Director' )? 'Greetings' :
+         (login == '') ? 'No login' : '';
+         alert(message);
+       </script>
+</body>
+</html>
